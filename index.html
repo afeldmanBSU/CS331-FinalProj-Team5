@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <script src="https://unpkg.com/konva@10/konva.min.js"></script>
-    
+    <link rel="stylesheet" href="styles.css">
+
 </head>
+
 <body>
     <div id="container"></div>
     <script src="script.js"></script>
+
+    <!-- Rounded switch -->
+    <label class="switch">
+        <input type="checkbox" onclick="Togglebutton(1)" checked>
+        <span class="slider round"></span>
+    </label>
+    <br><br>
+    <!-- Rounded switch -->
+    <label class="switch">
+        <input type="checkbox" onclick="Togglebutton(2)" checked>
+        <span class="slider round"></span>
+    </label>
+    <br><br>
+    <!-- Rounded switch -->
+    <label class="switch">
+        <input type="checkbox" onclick="Togglebutton(3)" checked>
+        <span class="slider round"></span>
+    </label>
 </body>
+
 </html>
